@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="runnerst.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiraviam</title>
+</head>
+
+
+
+<body id="MrMainBody"style="margin: 0px;background-color:rgb(173, 235, 235);overflow:hidden;">
+    
+    
+    
+    <audio id="BGM" controls="none" preload="auto" style="display:none">
+        <source src="Monkeys-Spinning-Monkeys.mp3" type="audio/mp3">
+    </audio>
+    <audio id="jump" controls="none" preload="auto" style="display:none">
+        <source src="jump.mp3" type="audio/mp3">
+    </audio>
+    <audio id="power" controls="none" preload="auto" style="display:none">
+        <source src="invincibleau.mp3" type="audio/mp3">
+    </audio>
+    <canvas onclick="motion()" style="top:0%;"></canvas>
+   
+   
+    <div id="tab" >
+        <div id="score">Click Space to Start</div>
+        <div id="highestscore"></div>
+    </div>
+    <div id="monkey" >
+        <div style="display:none;">
+            <img id="frame" src="playerA.png" width="50" height="50">
+            <img id="frameB" src="playerB.png" width="50" height="50">
+            <img id="frameC" src="obj1.png" width="50" height="50">
+            <img id="frameD" src="slowdown.png" width="50" height="50">
+            <img id="frameE" src="invinsible.png" width="50" height="50">
+            <img id="frameF" src="roadbasea.png" width="50" height="50">
+            <img id="frameG" src="roadbaseb.png" width="50" height="50">
+            <img id="frameH" src="waterhole.png" width="50" height="50">
+            <img id="frameI" src="waterholeup.png" width="50" height="50">
+
+          </div>
+       
+    <div id="shoutout">
+        <h1 style="font-family:'Courier New', Courier, monospace;">GAME OVER</h1>
+        <h1 id="scor"style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"></h1>
+        <h1 id="Highscoreloc" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"></h1>
+        <a href="index.html" style="color:ivory;font-size:25px;">Try Again</a>
+    </div>
+         <div id="shoutoutsec">
+        <h1 style="font-family:'Courier New', Courier, monospace;">Please rotate your phone to Landscape</h1>
+    </div>
+</div>
+    <script src="runnerjs.js"></script>
+    <script src="runnertwo.js"></script>
+</body>
+</html>
